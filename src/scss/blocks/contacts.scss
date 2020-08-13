@@ -1,0 +1,16 @@
+.contacts {
+  width: 450px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts__tel {
+  padding-left: 30px;
+  background: url("../img/phone.svg") no-repeat 7px 5px;
+}
+
+
+.contacts__address {
+  padding-left: 20px;
+  background: url("../img/address.svg") no-repeat 4px 5px;
+}

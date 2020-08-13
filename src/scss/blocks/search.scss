@@ -1,0 +1,19 @@
+.search__input {
+  width: 365px;
+  height: 47px;
+  margin-right: -50px;
+  padding-left: 17px;
+  font-family: inherit;
+  color: #9F9F9F;
+  background: transparent;
+  border: 1px solid #E1E1E1;
+  box-sizing: border-box;
+
+  &:focus {
+    color: #343030;
+  }
+}
+
+.search__button {
+  margin-left: -30px;
+}

@@ -1,0 +1,28 @@
+.button {
+  padding: 15px 30px;
+  color: #FFFFFF;
+  background: #403432;
+
+  &--search {
+    padding: 15px 36px;
+  }
+
+  &:hover {
+    background: #776763;
+  }
+
+  &--active {
+    padding: 15px 10px 15px 30px;
+    background: #5B3A32 url("../img/tick.svg") no-repeat 10px 15px;
+  }
+
+  &:disabled {
+    background: #C1B4B1;
+  }
+
+  &--loader,
+  &--loader:hover {
+    background: #776763 url("../img/loader.svg") no-repeat 50% 50%;
+    color: transparent;
+  }
+}

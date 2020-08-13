@@ -1,0 +1,21 @@
+.footer {
+  min-width: 1200px;
+  margin: 0;
+  padding: 0;
+  background: #ECEAEA;
+}
+
+.footer__wrapper {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.footer__nav {
+  margin-left: 50px;
+}
+
+.footer__contacts {
+  margin-left: auto;
+}
