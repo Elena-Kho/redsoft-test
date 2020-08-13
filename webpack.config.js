@@ -8,7 +8,8 @@ let config = {
 	output: {
 	  path: path.resolve(__dirname, "./dist"),
 	  filename: "main.js",
-	  publicPath: "dist/"
+	  //publicPath: "dist/"
+    publicPath: "/redsoft-test/dist/"
 	},
     devServer: {
       contentBase: path.join(__dirname, "./dist"),
